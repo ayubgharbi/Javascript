@@ -52,12 +52,20 @@ Name: "Ging"
 Return: "Hello Qazi"
 */ 
 
-function greeting() {
-    var name = prompt('What is your name?');
-    var result = 'Hello'+ ' ' + name; // String Concatenation
+function greeting(YourName) {
+    var result = 'Hello'+ ' ' + YourName; // String Concatenation
     console.log(result);
 }
 
-greeting();
+var name = prompt('What is your name?');
+greeting(name);
 
+// How to arguments work in functions?
+// How do we add 2 numbers together in a function
 
+function sumNumbers(num1, num2){
+    var result = num1 + num2;
+    console.log(result);
+}
+
+sumNumbers(10, 10);
