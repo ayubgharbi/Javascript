@@ -29,3 +29,35 @@ console.log(num1 % 6);
 // Increment/decrement by 10
 num1 += 10;
 console.log(num1);
+
+/* Functions
+1. Create a function
+2. Call the function
+*/
+
+// Create
+function fun() {
+    console.log('this is a function');
+}
+
+// Call
+fun();
+
+/* Let's create a function that take in a name
+and says hello followed by your name
+
+for example
+
+Name: "Ging"
+Return: "Hello Qazi"
+*/ 
+
+function greeting() {
+    var name = prompt('What is your name?');
+    var result = 'Hello'+ ' ' + name; // String Concatenation
+    console.log(result);
+}
+
+greeting();
+
+
